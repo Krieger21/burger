@@ -36,10 +36,10 @@ var orm = {
     updateOne: function(objVal, condition, cb) {
         var queryString3 = "UPDATE burgers"
         
-        queryString += " SET "
-        queryString += objVal
-        queryString += " WHERE "
-        queryString += condition
+        queryString3 += " SET "
+        queryString3 += objVal
+        queryString3 += " WHERE "
+        queryString3 += condition
 
         console.log(queryString3)
 
